@@ -356,7 +356,6 @@ module.exports = class extends Generator {
       'proxy_datapath',
       'bitcoin_datapath',
       'lightning_datapath',
-      'sparkwallet_datapath',
       'otsclient_datapath'
     ];
 
@@ -447,7 +446,6 @@ module.exports = class extends Generator {
       lightning_datapath: '',
       lightning_nodename: name.generate(),
       lightning_nodecolor: '',
-      sparkwallet_datapath: '',
       otsclient_datapath: '',
       installer_cleanup: false,
       default_username: process.env.DEFAULT_USER || '',
